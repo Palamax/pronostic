@@ -1,0 +1,60 @@
+body{
+    width:100%;
+    height:100%;
+}
+
+
+.body_ {
+     background-image: url("/pronostic/img/web_site/accueil.jpg");
+     width:100%;
+     background-size: cover;
+}
+
+.body_pronostics {
+    background-image: url("/pronostic/img/web_site/terrain.jpg");
+
+    height:50%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body_classement {
+    background-image: url("/pronostic/img/web_site/maillot_france.jpg");
+
+    height:50%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.colorBlue{
+background-color:#28639F;
+}
+
+.colorGreen{
+background-color:green;
+}
+
+.colorRed{
+background-color:red; 
+}
+
+.pagination > li > a,
+.pagination > li > span {
+    color: #28639F; // use your own color here
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    background-color: #28639F;
+    border-color: #28639F;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active {
+    background-color: orange;
+}
